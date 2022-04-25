@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+    <head>
+        <meat charset="UTF-8">
+        <title>Document</title>
+        <link href="payment-form.css"rel="stylesheet">
+    </head>
+    <body>
+    <form>
+         <h1>支付表单</h1>
+         <p>必填字段<abbr title="required">*</abbr></p>
+    </form>     
+    <section>
+          <h2>联系人信息</h2>
+          <fieldset style="width:200px;">
+                <legend>标题</legend>
+                <input type="radio" name="sex" value="1" id="ns"><label for="ns">男士</label><br>
+                <input type="radio" name="sex" value="2">女士
+          </fieldset>   	
+    </section>
+        <p>
+             <table>
+          	  	<tr>
+          	  		<td style="width:100px;" align="right"><label for="user"> 姓名：</label><abbr title="required">*</abbr></td>
+          	  		<td><input type="text"name="user"></td>
+          	  	</tr>
+          	  	<tr>
+          	  		<td style="width:100px;" align="right"><label for="htt"> E-mail:</label><abbr title="required">*</abbr></td>
+          	  		<td><input type="electronic mail"name="htti"></td>
+          	  	</tr>
+          	  	<tr>
+          	  		<td style="width:100px;" align="right"><label for="dtd"> 密码：</label><abbr title="required">*</abbr></td>
+          	  		<td><input type="password"name="dtd"></td>
+          	  	</tr>
+          	  </table>
+        </p>
+        <section>
+              <h3>支付信息</h3>
+        </section>      
+              <p>
+                <table>
+          	  	<tr>
+                   <td style="width:100px;" align="right"><label for="klx"> 卡类型:</label><addr title="required">*</addr></td>
+                   <td><select name="user" id="klx">
+                       <option value="1">visa</option>
+                       <option value="2">222</option>
+                       <option value="3">333</option> 
+                    </select>
+                    </td>
+                    </tr>
+                    
+                    <tr>    
+                        <td style="width:100px;" align="right"><label for="jbk"> 卡号:</label><addr title="required">*</addr></td>
+                        <td><input type="electronic mail"name="httl" id="jbk"></td>
+                    </tr>
+                    <tr>
+                        <td style="width:100px;" align="right"><label for="sdq">卡有效日期:</label><addr title="required">*</addr></td> 
+                         <td><input type="week" name="time" id="sdq"></td>
+                    </tr>
+                    </table>
+                    <p><i>输入格式月/年</i></p>
+                    <p><div style="padding-left:130px;"><input type="submit" value="确认支付"></div></p>
+             </p>
+</body>
+</html>
+
+
+
+                         
